@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6638313301611214334}
   m_Layer: 0
   m_Name: Sides
-  m_TagString: Untagged
+  m_TagString: Sides
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

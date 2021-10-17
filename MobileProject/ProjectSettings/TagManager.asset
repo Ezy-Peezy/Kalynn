@@ -8,6 +8,12 @@ TagManager:
   - Bolt
   - Barrier
   - obstacle
+  - SpawnManager
+  - GameManager
+  - New tag
+  - Background
+  - Sides
+  - Obstacle
   layers:
   - Default
   - TransparentFX
