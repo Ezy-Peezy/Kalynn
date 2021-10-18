@@ -25,7 +25,7 @@ public class SpawnManager : MonoBehaviour
     private float spawnRangeY = 3;
     private float spawnPosZ = 15;
     private float startDelay = 2;
-    private float spawnInterval = 1.5f;
+    private float spawnInterval = .8f;
 
     //private Vector3 boltSpawnPos = new Vector3(1, 1, 15);
    // private float boltSpawnRangeX = 3;
@@ -67,7 +67,7 @@ public class SpawnManager : MonoBehaviour
     public void UpdateScore(int scoreToAdd)
     {
         score += scoreToAdd;
-        scoreText.text = "Score: " + score;
+        scoreText.text = "Bolts: " + score;
     }
 
     public void GameOver()

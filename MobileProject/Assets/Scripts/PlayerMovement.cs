@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
         var rigidbody = GetComponent<Rigidbody>();
 
-        rigidbody.velocity = new Vector3(joystick.Horizontal * 5f, joystick.Vertical * 5f, rigidbody.velocity.z * 5f);
+        rigidbody.velocity = new Vector3(joystick.Horizontal * 6f, joystick.Vertical * 6f, rigidbody.velocity.z * 6f);
     }
 
     private void OnTriggerEnter(Collider other)
